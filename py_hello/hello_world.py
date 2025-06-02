@@ -19,7 +19,7 @@ def main(args=None):
     rclpy.init(args=args)
     node = HelloWorld()
     rclpy.spin(node)
-    minimal_publisher.destroy_node()
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

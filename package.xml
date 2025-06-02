@@ -3,8 +3,8 @@
 <package format="3">
   <name>py_hello</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="melih@todo.todo">melih</maintainer>
+  <description>Simple python package</description>
+  <maintainer email="melih.canbolat@gmail.com">melih-canbolat</maintainer>
   <license>Apache-2.0</license>
 
   <exec_depend>rclpy</exec_depend>

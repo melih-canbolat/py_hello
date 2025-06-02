@@ -13,14 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='melih',
-    maintainer_email='melih@todo.todo',
-    description='TODO: Package description',
+    maintainer='melih-canbolat',
+    maintainer_email='melih.canbolat@gmail.com',
+    description='Simple python package',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = py_pubsub.publisher_member_function:main',
+                'talk = py_hello.hello_world:main',
         ],
     },
 )
